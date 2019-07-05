@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oscar.practica104072019.MainActivity">
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="708dp"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="-34dp">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="674dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="-32dp"
+        app:layout_constraintHorizontal_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Ingresa Nombre" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Ingresa Apellido" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="apellido" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Ingresa Contraseña" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:layout_weight="0.08" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.12">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
